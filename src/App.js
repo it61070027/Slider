@@ -1,5 +1,5 @@
 import "./css/slider.css";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 function App() {
   const listImg = [
     "https://s2.best-wallpaper.net/wallpaper/1920x1080/1711/Beautiful-nature-landscape-grass-trees-river-clouds-colorful_1920x1080.jpg",
@@ -22,7 +22,6 @@ function App() {
   const changeIndex = (index) => {
     setIndex(index);
   };
-  //useEffect(() => void setInterval(() => setIndex(state => (state + 1) % lenList), 3000), [])
   return (
     <div>
       <div className="slider">
